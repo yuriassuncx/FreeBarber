@@ -26,6 +26,7 @@ export function LoginComponent() {
                 <label htmlFor="password">Senha</label>
                 <Input
                     id="password"
+                    type="password"
                     placeholder="Senha"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
